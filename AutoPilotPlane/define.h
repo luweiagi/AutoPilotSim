@@ -1,0 +1,5 @@
+
+#define SIM_TIME_SECONDS 21
+
+#define LOOP_RATE_HZ 400
+#define LOOP_DELTA_T_MICROS 2500

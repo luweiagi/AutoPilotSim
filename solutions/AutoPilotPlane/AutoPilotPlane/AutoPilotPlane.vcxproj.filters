@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Plane">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{2fd51d79-e05d-4ac6-9ab3-c3e08bbe530a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\HAL">
+      <UniqueIdentifier>{5e17413a-8db8-4c05-bcf1-09631cb7aa7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\Maths">
+      <UniqueIdentifier>{7c85baa3-a7de-460f-9f78-960e26355b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\CopterAttitudeControl">
+      <UniqueIdentifier>{8b32f700-58b3-4470-8957-6e3aef05dfdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\Scheduler">
+      <UniqueIdentifier>{46438cf8-e4ae-403a-b3a7-e6415af86cee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\AutoPilotPlane\AutoPilotPlane.cpp">
+      <Filter>Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\HAL\HAL.cpp">
+      <Filter>library\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\HAL\timer.cpp">
+      <Filter>library\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\Maths\Maths.cpp">
+      <Filter>library\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\CopterAttitudeControl\CopterAttitudeControl.cpp">
+      <Filter>library\CopterAttitudeControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\Scheduler\Scheduler.cpp">
+      <Filter>library\Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\AutoPilotPlane\Plane.cpp">
+      <Filter>Plane</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\AutoPilotPlane\define.h">
+      <Filter>Plane</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
